@@ -5,3 +5,8 @@ while (a!=0): # a not equal to zero enter into loop
     sum=sum+rem
     a=a//10
 print("SUM",sum)
+
+#Short Method
+a1=int(input("Enter a Number : "))
+b1=[int(i) for i in str(a1)]
+print(sum(b1))
